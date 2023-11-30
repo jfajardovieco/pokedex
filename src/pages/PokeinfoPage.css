@@ -1,0 +1,109 @@
+.article__div{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+flex-direction: space;
+gap: 1.5em 2em;
+flex-wrap: wrap;
+
+}
+
+.header__info{
+    background-color: #ABEBC6 ;
+    border-radius: 15px;
+}
+
+.grass{
+    background-color: rgba(49, 129, 49, 0.452);
+    }
+    .fire{
+    background-color: rgba(179, 62, 62, 0.452);
+    }
+    .water{
+    background-color: rgba(0, 0, 255, 0.479);
+    }
+    .bug{
+    background-color: rgba(200, 255, 47, 0.548);
+    }
+    .flying{
+    background-color: #777;
+    }
+    .normal{
+        background-color: palevioletred;
+    }
+    .poison{
+    background-color: rgba(128, 0, 128, 0.432);
+    }
+    .electric{
+    background-color: rgba(255, 255, 0, 0.616);
+    }
+    .ground{
+    background-color: burlywood;
+    }
+    .psychic{
+        background-color: rgba(137, 43, 226, 0.452);
+    }
+    .fighting {
+    background-color: rgba(255, 127, 80, 0.459);
+    }
+    .ghost{
+        background-color: rgba(128, 0, 128, 0.89);
+    }
+    
+    .rock{
+        background-color: gray;
+    }
+
+.section__principal{
+    text-align: center;
+}
+
+.info{
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.section__infocard{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.stats__complete{
+max-width: 100px;
+}
+.hp{
+background-color: brown;
+height: 10px;
+width: 120px;
+margin-top: 7%;
+}
+
+
+
+.section__state{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.h2__type{
+    color: #777;
+}
+
+.h2__hability{
+    color: #777;
+}
+
+@media screen and (max-width: 500px){
+    .info{
+        width: 75%;
+    }
+    }

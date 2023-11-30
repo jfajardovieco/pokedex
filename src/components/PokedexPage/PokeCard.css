@@ -1,0 +1,126 @@
+
+
+
+
+.header__Card{
+
+    background-color: #ABEBC6  ;
+    width: 100%;
+    /* aspect-ratio: 1.3; */
+    border-bottom: 1px solid #ccca;
+    border-radius: 2%;
+}
+
+.grass{
+background-color: rgba(49, 129, 49, 0.452);
+}
+.fire{
+background-color: rgba(179, 62, 62, 0.452);
+}
+.water{
+background-color: rgba(0, 0, 255, 0.479);
+}
+.bug{
+background-color: rgba(200, 255, 47, 0.548);
+}
+.flying{
+background-color: #777;
+}
+.normal{
+    background-color: palevioletred;
+}
+.poison{
+background-color: rgba(128, 0, 128, 0.432);
+}
+.electric{
+background-color: rgba(255, 255, 0, 0.616);
+}
+.ground{
+background-color: burlywood;
+}
+.psychic{
+    background-color: rgba(137, 43, 226, 0.452);
+}
+.fighting {
+background-color: rgba(255, 127, 80, 0.459);
+}
+.ghost{
+    background-color: rgba(128, 0, 128, 0.89);
+}
+
+.rock{
+    background-color: gray;
+}
+
+.img__article{
+    max-width: 20%;
+    margin: auto;
+    object-fit: contain;
+    
+    
+}
+
+.card{
+    background-color:white;
+    border: 1px solid black;
+    max-width: 30%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border-radius: 2%;
+    margin: 0;   
+    
+}
+
+.section__article{
+
+    padding: 1.5em 1.2em 2.5em;
+
+}
+
+.h3__name{
+    padding-left: 1em;
+    font-weight: 400;
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+
+.ul__type{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+
+.li__type{
+
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+
+.ul__stats{
+display: flex;
+flex-wrap: nowrap;
+align-content: space-between;
+justify-content:space-evenly;
+align-items: baseline;
+flex-direction:row;
+}
+
+
+.li__stats{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #080708ee;
+}
+
+@media screen and (max-width: 600px){
+.card{
+    max-width: 70%;
+}
+}

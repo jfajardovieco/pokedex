@@ -1,0 +1,12 @@
+
+
+img{
+    max-width: 50%;
+    margin: 0;
+}
+
+
+input, button, select{
+font-size: 1.4rem;
+margin-bottom: 0.5em;
+}
